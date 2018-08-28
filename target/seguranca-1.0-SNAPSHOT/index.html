@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!-- saved from url=(0047)https://suap.ifpb.edu.br/accounts/login/?next=/ -->
+<html lang="pt-br"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>SUAP: Sistema Unificado de Administração Pública - Login</title>
+<meta name="robots" content="NONE,NOARCHIVE">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="https://suap.ifpb.edu.br/static/comum/img/favicon.png">
+<link rel="stylesheet" href="https://suap.ifpb.edu.br/static/comum/fontawesome/css/fontawesome-all.min.css">
+<link type="text/css" rel="stylesheet" href="https://suap.ifpb.edu.br/static/comum/css/estilo.css">
+<link type="text/css" rel="stylesheet" href="https://suap.ifpb.edu.br/static/comum/css/forms.css">
+<link type="text/css" rel="stylesheet" href="https://suap.ifpb.edu.br/static/comum/css/login.css">
+<script type="text/javascript" async="" src="https://suap.ifpb.edu.br/static/comum/js/recaptcha__pt_br.js.download"></script>
+<script src="https://suap.ifpb.edu.br/static/comum/js/jquery.min.js.download"></script>
+<script>
+$(document).ready(function() {
+    $("#id_username").focus();
+});
+</script>
+    <style>
+        .login .g-recaptcha {
+            display: block;
+        }
+
+    </style>
+    <script src="https://suap.ifpb.edu.br/static/comum/js/api.js.download" async="" defer=""></script>
+
+</head>
+
+<body class="login">
+    <div id="content">
+
+
+        <div class="login-form">
+
+            <h1>SUAP: Sistema Unificado de Administração Pública</h1>
+
+
+
+            <form action="Main" method="post"><input type="hidden" name="csrfmiddlewaretoken" value="SKRaBwrJ26D569M0ih6msvCEVFgqhhpFKuETctiicZMxHqikMm3TZkSNufaAQZID">
+                <div class="form-row">
+
+                    <label for="id_username" class="required">Usuário:</label>
+                    <input type="text" name="username" autofocus="autofocus" required="required" id="id_username" maxlength="254">
+                </div>
+                <div class="form-row">
+
+                    <label for="id_password" class="required">Senha:</label>
+                    <input type="password" name="password" required="required" id="id_password">
+                    <input type="hidden" name="this_is_the_login_form" value="1">
+                    <input type="hidden" name="next" value="/">
+                </div>
+                <div class="form-row">
+
+
+                    <div style="display: flex;justify-content: center; margin-top:10px;">
+
+                    </div>
+                </div>
+
+                <div class="submit-row">
+                    <input type="submit" value="Acessar">
+                </div>
+                <div class="form-row">
+                    <a href="https://suap.ifpb.edu.br/comum/solicitar_trocar_senha/">Esqueceu sua senha?</a>
+                    <a href="https://suap.ifpb.edu.br/comum/solicitar_trocar_senha/">Deseja alterar sua senha?</a>
+                </div>
+            </form>
+        </div>
+        <div class="login-services">
+            <h3>Serviços</h3>
+            <ul>
+                <li><a href="https://suap.ifpb.edu.br/protocolo/consulta_publica"><span class="fa fa-file-alt"></span> Consulta de Processos</a></li>
+                <li><a href="https://suap.ifpb.edu.br/comum/solicitar_trocar_senha/"><span class="fa fa-user-secret"></span> Troca de senha</a></li>
+                <li><a href="https://suap.ifpb.edu.br/comum/autenticar_documento/"><span class="fa fa-lock"></span> Autenticação de Documento</a></li>
+                <li><a href="https://suap.ifpb.edu.br/expedicao/formulario_diariapassagem">
+                    <span class="fa fa-plane"></span> Proposta de diárias e passagens</a></li>
+                <li><a href="https://suap.ifpb.edu.br/edu/acesso_responsavel/"><span class="fa fa-key"></span> Acesso do Responsável</a></li>
+                <li><a href="https://suap.ifpb.edu.br/estagios/avaliar_pratica_profissional_supervisor/"><span class="fa fa-chart-line"></span> Avaliação de Estágio</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="login-footer">
+        <p>© 2018 SUAP | Desenvolvimento: <a href="http://portal.ifrn.edu.br/">IFRN</a> / <a href="http://portal.ifpb.edu.br/">IFPB</a></p>
+    </div>
+
+
+</body><object id="688b4a9b-cad8-9e95-ea19-cba61a9c9383" width="0" height="0" type="application/gas-events-cef"></object></html>
